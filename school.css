@@ -156,6 +156,11 @@ width: 80%;
 margin: 0 auto;
 }
 
+
+/* main styles */
+main{
+    background: url(./assets/bg.png);
+}
 /* mobile device media query
  */
 
