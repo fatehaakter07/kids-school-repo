@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* shared styles */
+
+.display-flex{
+    display: flex;
+}
+
+.margin{
+    width: 100%;
+    margin: 0 auto;
+}
+/* shared text-color */
+.blue{
+    color: rgb(1, 172, 253)
+}
+
+.org{
+    
+    
+        color: rgb(254, 163, 1);
+    
+}
+/* shARED bg-COLORS */
+nav{
+    align-items: center;
+}
+
+.sky-blue{
+    background-color: rgb(1, 172, 253);
+}
+
+.orange{
+    
+background: rgb(254, 163, 1);
+}
+
+/* header styles */
+nav{
+    justify-content: space-evenly;
+}
+.menu{
+  
+}
+.li-item{
+    list-style: none;
+    margin-left: 32px; 
+}
+.li-item>a{
+    text-decoration: none;
+}
+.link1{
+color: rgb(254, 163, 1);
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+.link2{
+color: rgb(1, 172, 253);
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+.link3{
+color: rgb(5, 212, 223);
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+.link4{
+color: rgb(93, 88, 239);
+font-size: 1.25rem;
+font-weight: 700;
+
+}
+
+.btn-prm{
+    width: 150px;
+color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 600;
+padding: 20px;
+border: none;
+border-radius: 12px;
+background: rgb(254, 163, 1);
+}
+
+.bar{
+    
+    display: none;
+}
+/* mobile device media query
+ */
+
+ @media screen and (max-width:576px) {
+ 
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        border-bottom:1px solid rgb(254, 163, 1) ;
+    
+    }
+    .institute,.menu,.btn-prm{
+        display: none;
+    }
+    .bar{display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ }
