@@ -1,10 +1,10 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
-*{
-    margin: 0;
-}
+
 .quicksand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -16,15 +16,12 @@
 
 /* shared styles */
 
+
+
+
 /* margin and width */
 
-header{
-    max-width: 1440px;
-}
-nav,section{
-    width: 80%;
-    margin: 0 auto;
-    }
+
 
 .display-flex{
     display: flex;
@@ -86,7 +83,7 @@ font-weight: 400;
 }
 .nav-box{
   
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-self: center;
     align-items: center;
 }
@@ -160,6 +157,74 @@ margin: 0 auto;
 /* main styles */
 main{
     background: url(./assets/bg.png);
+}
+
+
+/* card styles */
+.sec-1{
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+.cards{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card-1,.card-2,.card-3{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.card-link{
+    text-decoration: none;
+}
+.card-btn-1,.card-btn-2,.card-btn-3{
+
+font-size: 1rem;
+font-weight: 700;
+text-align: center;
+}
+
+.card-btn-1{
+    color: rgb(100, 200, 255);
+}
+
+.card-btn-2{
+    color: rgb(240, 170, 0);
+}
+
+.card-btn-3{
+    color: rgb(135, 0, 255);
+}
+/* card sizing & shaping */
+.card-1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.card-2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-3{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
 }
 /* mobile device media query
  */
