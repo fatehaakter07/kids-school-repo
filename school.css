@@ -141,13 +141,7 @@ background: rgb(254, 163, 1);
    
   justify-content: center;
   align-items: center;
-
-    
 }
-
-
-
-/* margin and width */
 
 
 
@@ -159,11 +153,13 @@ main{
 
 
 /* card styles */
+
 .sec-1{
     flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 30px;
+        margin: 50px 0;
 }
 .cards{
     justify-content: center;
@@ -200,7 +196,13 @@ text-align: center;
     color: rgb(135, 0, 255);
 }
 /* card sizing & shaping */
-.card-1{
+.card-title{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+    .card-1{
     box-sizing: border-box;
 border: 0.94px solid rgb(222, 245, 255);
 border-radius: 18.86px;
@@ -223,6 +225,27 @@ border-radius: 18.86px;
 
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+/* arrow styles */
+.circle-arrow{
+    color: #ffffff;
+    display: flex;
+justify-content:center ;
+text-align: center;
+align-items: center;
+gap: 20px;
+
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+   border-radius: 50%;
 }
 /* mobile device media query
  */
