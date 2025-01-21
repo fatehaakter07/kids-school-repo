@@ -140,7 +140,7 @@ background: rgb(254, 163, 1);
 .banner{
    
   justify-content: center;
-  align-items: center;
+ 
 }
 
 
@@ -248,6 +248,75 @@ gap: 20px;
     font-weight: 600;
    border-radius: 50%;
 }
+
+ /* our stories section */
+ .sec-2{
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   margin-bottom:50px ;
+ }
+ .story-images-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+ }
+
+.image4-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    /* border-radius: 16px;
+background: rgb(255, 255, 255); */
+}
+.img-card1,.img-card2,.img-card3,.img-card4,.img-card5{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid;
+    background: rgb(255, 255, 255);
+}
+ .img-card-1-title{
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+.img-card>button{
+    color: #ffffff;
+    border-radius: 16px   ;
+    position: relative;
+    top: -15px;
+    left: -40px;
+    padding: 15px;
+    
+
+}
+
+
+
+.btn-bg1{ 
+background: rgb(60, 216, 232);
+}
+ 
+.btn-bg2{      
+
+background: rgb(149, 178, 38);
+}
+ 
+.btn-bg3{
+
+background: rgb(93, 88, 240);
+}
+ 
 /* mobile device media query
  */
 
