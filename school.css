@@ -151,7 +151,9 @@ background: rgb(254, 163, 1);
  
 }
 
-
+.banner-img{
+width: 100%;
+}
 
 
 /* main styles */
@@ -407,21 +409,18 @@ font-weight: 700;
     gap: 20px;
 
 }
-header{
-    margin:  0 50px;
-}
+
 /* mobile device media query
  */
 
  @media screen and (max-width:576px){
  
-    header{
-        width: ;
-    }
-    nav{
-
+    
+    .nav-box{
+width: 100%;
         display: flex;
         justify-content: space-between;
+        margin: 0;
        padding-bottom: 10px;
         border-bottom:1px solid rgb(254, 163, 1) ;
         
@@ -475,5 +474,10 @@ margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-
+.btn-bg2,.btn-bg3{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: -10px;
+}
  }
