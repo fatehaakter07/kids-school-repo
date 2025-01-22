@@ -154,16 +154,14 @@ width: 100%;
 /* main styles */
 main{
     width: 100%;
-    background: url(./assets/bg.png);
-    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-
+   
 }
 
 
 /* card styles */
 
 .sec-1{
-
+    background: url(./assets/bg.png);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -263,8 +261,9 @@ gap: 20px;
    flex-direction: column; 
    justify-content: center;
    align-items: center;
-   margin: 0 50px;
-   /* background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); */
+   padding:  0 50px;
+   background: url(./assets/bg.png);
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%); 
  }
  .cards-2{
     flex-direction: column;
