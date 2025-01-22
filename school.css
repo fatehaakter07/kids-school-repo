@@ -378,21 +378,26 @@ font-weight: 400;
 
 }
 .footer-About{
-    flex-direction: column;
-    justify-content: left;
     color: #ffffff;
-    align-items: left;
-    text-align: left;
+    flex-direction:column ;
+    justify-content: flex-start;
+    color: #ffffff;
+    align-content: flex-start;
+    align-self: start;
+   gap: 0;
 
 }
+
 .footer-About>h3{
     font-size: 2rem;
 }
 .menu-footer{
     flex-direction: column;
+
     
 }
 .menu-footer{
+    text-align: ;
     color: #ffffff;
     font-size: 1.25rem;
 font-weight: 700;
@@ -410,11 +415,14 @@ header{
 
  @media screen and (max-width:576px){
  
-    
+    header{
+        width: ;
+    }
     nav{
+
         display: flex;
         justify-content: space-between;
-        padding: 5px;
+       padding-bottom: 10px;
         border-bottom:1px solid rgb(254, 163, 1) ;
         
     }
@@ -427,14 +435,14 @@ header{
         align-items: center;
     }
     .banner{
-        display: flex;
+    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
 
 }
 
-.sec-1,.cards
+.sec-1,.cards,footer,.sec-2
 {
     
     flex-direction: column;
@@ -442,10 +450,30 @@ header{
     align-items: center;
     text-align: center;
 }
+.sec-2,.{
+margin: 0 auto;
+}
 .title{
   font-size: 2.5rem;
 }
 .circle-arrow{
     display: none;
 }
+.img-card1{
+    display: none;
+}
+.story-images-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.image4-cards{
+    grid-template-columns: repeat(1,1fr);
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
  }
