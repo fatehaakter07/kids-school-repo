@@ -365,7 +365,7 @@ padding: 0 50px;
 }
 
 .footer-logo{
-width: 400px;
+ width: 400px; 
 flex-direction: column;
 justify-content: flex-start;
 
@@ -490,11 +490,11 @@ margin: 0 auto;
     position: relative;
     left: -10px;
 }
-/* .desc{
-    font-size: 9px;
-    justify-content: center;
+ .desc{
+    
+    padding: 0 50px;
     text-align: center;
-} */
+} 
 .foot{
     
     display: flex;
@@ -507,5 +507,10 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footer-logo-box{
+    display: flex;
+    flex-direction: column;
+
 }
  }
